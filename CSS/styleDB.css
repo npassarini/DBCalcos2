@@ -142,9 +142,16 @@ font-size: 1.25rem;
 
 /*Paginas
 
-/* Página Porfolio */   
+/* Página Porfolio */ 
 
-#sec-porfolio h1{
+.trabajo{
+display: flex;
+flex-flow: row wrap;
+justify-content:center;
+
+}
+
+.trabajos h1{
   font-size: 2.5rem;
   color: #0c3840;
   text-align: center;
@@ -155,6 +162,23 @@ font-size: 1.25rem;
 { 
   text-align: center;
   padding-bottom: 1.25rem;
+
+ }
+
+
+ /*Pagina sobre nosotros*/
+
+ .sobre-nosotros{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:left;
+  border-top: 1px #777 solid; 
+  padding-top: 1.25rem;
+  margin:15px;
+
+ }
+
+ .sobre-nosotros h1{
 
  }
 
