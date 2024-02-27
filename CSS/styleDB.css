@@ -1,0 +1,180 @@
+/* Natalia Passarini- Enero 2024 */
+
+/* Fuentes Instaladas */
+
+@font-face {
+  font-family: Woodlandand;
+  src: url("..//DBCalcos/fuentes/woodland/Woodland.ttf");
+}
+
+@font-face {
+  font-family: MerriWeather;
+  src: url("..//DBCalcos/fuentes/Merriweather/Merriweather-Black.ttf");
+}
+
+
+body {
+  
+  background-color:whitesmoke;  
+}
+
+
+/* seccion nav*/
+
+.menu{
+  background-color: #15A0AA;
+  
+}
+
+.menu a {
+  color: white;
+  border-radius: 5px;
+}
+.menu a:hover{ 
+  /*background: #FC1717;*/
+  background-color: #D2FBFA;
+  color: #187D86;
+  transition: 1s;
+
+}
+
+.boton-menu {
+
+ background-color: linear-gradient(180deg, #15A0AA 0%, #1C646E 100%);
+  color: #D2FBFA;
+  transition: 1s;
+  border: 1px solid #D2FBFA;
+  border-radius: 5px;
+  
+}
+
+
+.boton-menu:hover{
+  background-color: #D2FBFA;
+  color: #187D86;
+  transition: 1s;
+}
+
+
+/*sección footer*/
+
+footer{
+
+  background-color:#f2f9f9;
+  color: #325158;
+  line-height:1.5;
+}
+
+footer a{
+
+  text-decoration: none;
+  color:#1C646E;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.ft-titulo {
+  color:#1C646E;
+  font-family: ’Merriweather’, Arial, Helvetica, sans-serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+} 
+   
+.ft-redes{
+display: flex;
+flex-flow: row wrap;
+justify-content:left;
+border-top: 1px #777 solid; 
+padding-top: 1.25rem;
+margin:15px;
+}  
+
+.ft-redes-lista{
+display: flex;
+flex-flow: row wrap;
+justify-content:center;
+list-style: none;
+}
+
+.ft-redes li {
+
+padding-top: 1.25rem;
+margin: 0.5rem;
+font-size: 1.25rem;
+}
+
+.ft-redes img {
+width: 30px;
+height: 30px;
+
+
+}
+
+.ft-legal{
+display: flex;
+flex-flow: row wrap;
+justify-content:center;
+border-top: 1px #777 solid; 
+padding-top: 1.25rem;
+margin:15px;
+}  
+
+.ft-legal-lista{
+display: flex;
+flex-flow: row wrap;
+justify-content:center;
+list-style: none;
+}
+
+.ft-legal li {
+
+padding-top: auto;
+margin: 0.5rem;
+font-size: 1.25rem;
+}
+
+.ft-suscribe-item {
+  padding: 1.25rem;
+  min-width: 12.5rem /*200px*/;
+
+}
+
+/*Paginas
+
+/* Página Porfolio */   
+
+#sec-porfolio h1{
+  font-size: 2.5rem;
+  color: #0c3840;
+  text-align: center;
+  margin: 35px;
+  transition: 1s;
+}
+.trabajos 
+{ 
+  text-align: center;
+  padding-bottom: 1.25rem;
+
+ }
+
+
+ /*Pie de Página*/
+/*
+@media only screen and (min-width: 29.8125rem /* aprox 477px*//*) {
+  .ft-contenedor {
+      justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 77.5rem /* aprox 1240px*//* ) {
+  .ft-contenedor {
+      justify-content: space-evenly;
+  }
+}
+                    
+      */                
+
+
+ 
+
+

@@ -1,0 +1,112 @@
+
+body {
+         /*Otro color que me gusta */
+         /* background-color:#ddd9de; */
+         background-color:#F7BB8F;
+  
+
+          h1 {
+               font-size: 40px ;
+               color: #0c3840;
+               font-family:MerriWeather;
+            }     
+
+         }
+     
+       
+     
+             .titulo-producto
+                     {
+                       display: block;
+                        font-weight: bold;
+                        text-align: center;
+                        /*  para mayuscula */
+                         text-transform: uppercase;
+ 
+                       }
+
+                           .img-producto
+                                          { 
+                                             width: 100%;
+                                             height: 220px; 
+                                          }
+                                                    .precio-producto
+                                                                      {
+                                                                         display: block;
+                                                                         text-align: center;
+                                                                          font-weight: bold;
+                                                                          font-size: 22px;
+
+                                                                         }
+
+.boton-producto
+{
+    display: block;
+    margin: 10px auto;
+    /* sin border*/
+    border: none;
+    background-color:#1c535d;;
+    color:azure;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+                        .producto
+                                 {
+                                    max-width: auto;
+                                    /* queria 220px pero me daba error  la cambio a auto
+                                     y creo una clase para la imagen    */
+                                    margin: auto;
+                                    border: 1px solid #666;
+                                    border-radius: 10px;
+                                    padding: 20px;
+                                    /* efectos */
+                                    transition: .5s;
+                                 }
+                     
+
+
+                                 .contenedor
+                                 {
+                                    
+
+                                  /*  text-justify: auto;  
+                                    margin-top: 30px;
+                                    width: 100%; 
+                                    padding: 20px;
+                                    max-width: 1200px;
+                                    display: block;  
+                                    float:left;
+                                    */
+
+
+
+                                    margin-top: 30px;
+
+                                    display: grid;
+                                    
+
+                                      /*  grid-template-columns: repeat(3, 1fr) Crea 3 columnas de igual tamaño 
+                                       yo voy a usar una que sea auto fit y ademas que el minimo sea 220px, al final 
+                                       lo cambie a auto pq daba error
+                                      */
+
+                                    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+                                    
+                                    
+
+                                    /* grid-column-gap: define el espacio entre columnas
+                                       grid-row-gap: establece el espacio entre filas
+                                      grid-gap: es una propiedad abreviada de las anteriores.
+                                       */
+                                    grid-gap:30px;
+                                    grid-row-gap: 30px;
+                                   
+                                    /* Espacio entre las celdas *, tambien lo puedo poner así gap: 10px;/  
+  
+                                     /* ( Espacio entre las cajas de  productos (width: 50% minimo para 
+                                     que me queden horizontal los productos )*/
+                                     width: 50%;
+                                    transition: .5s;
+    
+                                 }

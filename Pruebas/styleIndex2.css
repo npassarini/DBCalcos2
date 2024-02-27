@@ -1,0 +1,182 @@
+/* Natalia Passarini- Enero 2024 */
+
+/* ******Fuentes Instaladas ******************/
+
+@font-face {
+    font-family:Woodlandand;
+    src: url("..//DBCalcos/fuentes/woodland/Woodland.ttf");
+}
+
+@font-face {
+    font-family:MerriWeather;
+    src: url("..//DBCalcos/fuentes/Merriweather/Merriweather-Black.ttf"); 
+}
+
+/* ********** FIn Fuentes ********************* */
+
+
+    body {
+             /*Otro color que me gusta */
+            /* background-color:#ddd9de; */
+             background-color:#F7BB8F;
+          }
+
+
+
+              /* ******** menú de navegación *****************/
+         
+                           .Encabezado{     
+                                       
+                                   /* Alineado izquierda 
+                                     Para que el menu se muestran horizontalmente y no uno debajo del otro.
+                                      uso   float left*/
+                                      float:left;
+                                      background-color: #15A0AA;
+                                      width: 100%;  
+                                   
+                                     /* Fixed, para que el menu se quede fijo a medida que baje la página 
+                                      (como inmobilizar paneles de excel. Puse relative porque no podia agregar nada ver eso */
+                                      
+                                      position:fixed;
+                                      top: 0;                      
+                                      z-index: 100;
+                                   
+                                        }
+                                                    
+                                     .ContenedorEncabezado 
+                                           {
+                            
+                                            list-style: none;
+                                            overflow: hidden; 
+                                         
+                                            
+
+                                           }
+                                           
+                                           .ContenedorMenu {
+
+                                            float: left;
+                                            font-family:MerriWeather;
+                                            font-size: 20px;
+                                           }
+
+                                           .ItemMenu {
+
+                                                                    
+                                                                    
+                                                                         display: block; 
+                                                                         /* relleno */
+                                                                         padding: 20px;
+                                                                         color: #fff;
+                                                                         text-decoration: none;
+                                                                        
+                                                                     
+                                                                       
+                                                                         
+
+                                                                    
+                                                          
+                                                     }
+                                                                                                                           
+                                                        
+
+                                                                            /* Uso pseudo clase hover para el relleno color amarillo 
+                                                                              del menu en Hexa*/
+                                                                              .ItemMenu:hover {
+                                                                                                  /* OTro color que me gsuta
+                                                                                                  background: #eca023; */
+                                                                                                 background: #FC1717;
+
+                                                                                                }
+
+
+                                                                        .ItemMenuBoton 
+                                                                                        {
+
+                                                                                          /*Elegi herencia porque no habia forma 
+                                                                                          que me quede el boton centrado con el menu*/
+                                                                                           float:inherit;
+                                                                                           display: block;
+                                                                                           padding: 20px;
+
+                                                                                           text-decoration: none;
+
+                                                                                           font-weight: bold;
+                                                                                           font-family:MerriWeather;
+                                                                                           font-size: 20px;
+                                                                                           color:black;
+                                                                                           cursor: pointer;  
+                                                                                          }
+
+                                                                                          ItemMenuBoton :hover
+                                                                                               {
+                                                                                                /* OTRO COLOR QUE me gusta
+                                                                                                background: #eca023;*/
+
+                                                                                                background:#FC1717 ;
+
+                                                                                                }             
+                                                                                                                   
+                                   
+       
+          
+
+                                       .Ico-whatsaap {
+                        
+                                                         /* Lo fijo derecha y abajo */
+                                        
+                                                         position:sticky;
+                                                         bottom: 20px;
+                                                          right:20px;
+                                                         z-index: 1000;
+                                                         /*   float:right; */
+                                                           font-family:MerriWeather;
+                                                          font-size: 20px;
+                                                           color:#1c535d;
+
+                                                       }
+
+
+                                                           .img-whatsaap {
+                                                                          width:40px; 
+                                                                          height:40px;
+                                                                         }
+
+     /*Footer General*/
+      footer {
+
+                         /* Position fixed + left =0  y el bottom = 0 para que quede fijado abajo a la izquierda en la página */
+                          position:fixed;
+                          left:0px;
+                          bottom:0px;
+                          height:50px;
+                          width:100%;
+                          background:#C9C9C7;
+
+                   #Sec-footer {   
+                                  display: inline-block;
+                                   position: fixed;
+                                   margin-left: 2%; 
+                                   /* lo deje en 15 porque me queda interlineado justo a la mitad*/
+                                   bottom:15px;                        
+                                   text-align:left;
+
+                                   font-family:MerriWeather;
+                                   color:#1c535d;
+                                   font-size: 15px;
+                            
+                                }
+               }
+
+               /*
+    
+                      .Cover-flow {
+                                     font-family:MerriWeather;
+                                         h1 {                          
+                                              font-size: 40px;
+                                              color:#0c3840 ;
+                                              text-align: center;
+                                            }  
+                                    }
+                                    */
+                                 
