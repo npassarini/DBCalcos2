@@ -26,6 +26,11 @@ body {
   
 }
 
+.menu-hamburguesa {
+
+color:white ;
+}
+
 .menu a {
   color: white;
   border-radius: 5px;
