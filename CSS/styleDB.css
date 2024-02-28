@@ -26,8 +26,9 @@ body {
   
 }
 
-#menu-hamburguesa{
-  color: #D2FBFA;
+.menu-hamburguesa{
+  background-color: #D2FBFA;
+  color:red;
 
 }
 
