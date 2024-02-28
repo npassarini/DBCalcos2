@@ -150,27 +150,32 @@ font-size: 1.25rem;
 
 /* Página Porfolio */ 
 
-.trabajo{
+.contenedor-trabajo{
 display: flex;
 flex-flow: row wrap;
-justify-content:center;
+justify-content:left;
 
 }
 
-.trabajos h1{
+
+.contenedor-trabajo-item { 
+  text-align: left;
+  padding-bottom: 1.25rem;
+  margin: 1.25rem;
+
+ }
+
+ .titulo-trabajo{
+  display: block;
   font-family: MerriWeather , Arial, Helvetica, sans-serif;
   font-size: 2.5rem;
   color: #0c3840;
-  text-align: center;
-  margin: 35px;
+  border-bottom: 1px #777 solid; 
+  text-align: left;
+  margin: 1.25rem;
   transition: 1s;
+  padding-top: 1.25rem;
 }
-.trabajos 
-{ 
-  text-align: center;
-  padding-bottom: 1.25rem;
-
- }
 
 
  /*Pagina sobre nosotros*/
@@ -181,12 +186,12 @@ justify-content:center;
   justify-content:left;
   text-align: left;
   margin:1.25rem;
+  padding-top: 1.25rem;
 
  }
 
  .sobre-nosotros h1{
 font-family: MerriWeather , Arial, Helvetica, sans-serif;
-padding-bottom: 1.25rem;
 border-bottom: 1px #777 solid; 
 
 
@@ -212,20 +217,40 @@ border-bottom: 1px #777 solid;
   justify-content:left;
   text-align: left;
   margin:1.25rem;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+
 
  }
 
  .form-contacto h1{
 font-family: MerriWeather , Arial, Helvetica, sans-serif;
-padding-bottom: 1.25rem;
 border-bottom: 1px #777 solid; 
+padding-top: 1.25rem;
 
 
  }
 
+ .titulo-contacto{
+  display: block;
+  font-family: MerriWeather , Arial, Helvetica, sans-serif;
+  border-bottom:  1px #777 solid; 
+  margin: 1.25rem;
+  padding-top: 1.25rem;
+   }
+
 
 
  /*Pagina productos*/
+
+ .titulo-productos{
+  display: block;
+  font-family: MerriWeather , Arial, Helvetica, sans-serif;
+  border-bottom:  1px #777 solid; 
+  margin: 1.25rem;
+  padding-top: 1.25rem;
+  
+   }
 
  .contenedor-productos{
   display: flex;
@@ -236,13 +261,7 @@ border-bottom: 1px #777 solid;
 
  }
 
- .contenedor-productos h1{
-font-family: MerriWeather , Arial, Helvetica, sans-serif;
-border-bottom: 1px #777 solid; 
-padding-bottom: 1.25rem;
-margin: 1.25rem;
 
- }
 
  .contenedor-productos-item{
   display: flex;
