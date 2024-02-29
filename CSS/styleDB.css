@@ -72,7 +72,7 @@ footer{
 }
 
 footer a{
-  font-family: MerriWeather , Arial, Helvetica, sans-serif;
+  font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;
   text-decoration: none;
   color:#1C646E;
 }
@@ -82,7 +82,7 @@ a:hover {
 }
 .ft-titulo {
   color:#1C646E;
-  font-family: ’Merriweather’, Arial, Helvetica, sans-serif;
+  font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   padding-bottom: 0.625rem;
 } 
@@ -167,7 +167,7 @@ justify-content:left;
 
  .titulo-trabajo{
   display: block;
-  font-family: MerriWeather , Arial, Helvetica, sans-serif;
+  font-family:'MerriWeather' , Arial, Helvetica, sans-serif;;
   font-size: 2.5rem;
   color: #0c3840;
   border-bottom: 1px #777 solid; 
@@ -191,20 +191,20 @@ justify-content:left;
  }
 
  .sobre-nosotros h1{
-font-family: MerriWeather , Arial, Helvetica, sans-serif;
+font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;;
 border-bottom: 1px #777 solid; 
 
 
  }
 
  .sobre-nosotros h2{
-  font-family:MerriWeather, Arial, Helvetica, sans-serif ;;
+  font-family:'MerriWeather' , Arial, Helvetica, sans-serif; ;;
   padding-top: 1.25rem;  
   
    }
 
    .sobre-nosotros p{
-    font-family: MerriWeather , Arial, Helvetica, sans-serif;
+    font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;;
     padding-bottom: 1.25rem;  
 
      }
@@ -224,7 +224,7 @@ border-bottom: 1px #777 solid;
  }
 
  .form-contacto h1{
-font-family: MerriWeather , Arial, Helvetica, sans-serif;
+font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;;
 border-bottom: 1px #777 solid; 
 padding-top: 1.25rem;
 
@@ -233,7 +233,7 @@ padding-top: 1.25rem;
 
  .titulo-contacto{
   display: block;
-  font-family: MerriWeather , Arial, Helvetica, sans-serif;
+  font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;;
   border-bottom:  1px #777 solid; 
   margin: 1.25rem;
   padding-top: 1.25rem;
@@ -245,7 +245,7 @@ padding-top: 1.25rem;
 
  .titulo-productos{
   display: block;
-  font-family: MerriWeather , Arial, Helvetica, sans-serif;
+  font-family: 'MerriWeather' , Arial, Helvetica, sans-serif;;
   border-bottom:  1px #777 solid; 
   margin: 1.25rem;
   padding-top: 1.25rem;
