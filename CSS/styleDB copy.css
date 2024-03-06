@@ -10,10 +10,7 @@
 @font-face {
   font-family: MerriWeather;
   src: url("..//DBCalcos/fuentes/Merriweather/Merriweather-Black.ttf");
-
 }
-
-
 
 
 body {
@@ -156,20 +153,15 @@ font-size: 1.25rem;
 .contenedor-trabajo{
 display: flex;
 flex-flow: row wrap;
-justify-content:center;
-
-
+justify-content:left;
 
 }
 
 
 .contenedor-trabajo-item { 
-  /** Para evitar el over**/
-  overflow: auto;
-  text-align: center;
-  padding-bottom: 2.5rem;
-  margin: 1.25rem; 
-  width: 100%;
+  text-align: left;
+  padding-bottom: 1.25rem;
+  margin: 1.25rem;
 
  }
 
@@ -179,17 +171,11 @@ justify-content:center;
   font-size: 2.5rem;
   color: #0c3840;
   border-bottom: 1px #777 solid; 
-  text-align: center;
+  text-align: left;
   margin: 1.25rem;
   transition: 1s;
   padding-top: 1.25rem;
 }
-
-
-
-
-
-
 
 
  /*Pagina sobre nosotros*/
@@ -280,23 +266,10 @@ padding-top: 1.25rem;
   flex-flow: row wrap;
   justify-content:space-between;
   padding: 1.25rem;  
-  }
+  
+   }
 
-  .boton-carrito
-  {
-    background-color:#187D86;
-  color: #D2FBFA;
-  transition: 1s;
-  border: 1px solid #D2FBFA;
-  border-radius: 5px;
-  }
 
-  .boton-carrito:hover
-  {
-    background-color:#D2FBFA;
-  color: #04191b;
-  transition: 1s;
-  }
 
 
 
