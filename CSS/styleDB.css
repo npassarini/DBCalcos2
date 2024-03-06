@@ -166,14 +166,9 @@ justify-content:center;
 .contenedor-trabajo-item { 
   /** Para evitar el over**/
   overflow: auto;
-  /*fin*/
   text-align: center;
-  
   padding-bottom: 2.5rem;
   margin: 1.25rem; 
-
-    width: 100%;
-    height: 100%;
 
  }
 
