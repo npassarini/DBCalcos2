@@ -1,3 +1,6 @@
-# Ignoro todos los txt // podria haber hecho requerimientos.txt para ignorar solo ese archivo, pero a lo mejor agrego un txt m{as con mis requerientos.NP
+# Ignoro todos los txt // podria haber hecho requerimientos.txt para ignorar solo ese archivo, pero a lo mejor agrego un txt más con mis requerientos.NP
 *.txt
+
+# Copia Back de mi estilo CSS por las dudas que falle la implementacion SCSS 
+styleDB copy 4.css
 
