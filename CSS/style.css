@@ -65,7 +65,7 @@ a:hover {
 .ft-redes {
   display: flex;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: center;
   border-top: 1px #777 solid;
   padding-top: 1.25rem;
   margin: 15px;
@@ -143,12 +143,13 @@ a:hover {
   border-bottom: 1px #777 solid;
   margin: 1.25rem;
   padding-top: 1.25rem;
+  text-align: center;
 }
 
 .sobre-nosotros {
   display: flex;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: center;
   text-align: left;
   margin: 1.25rem;
   padding-top: 1.25rem;
@@ -160,10 +161,18 @@ a:hover {
   padding-bottom: 1.25rem;
 }
 
+.titulo-contacto {
+  display: block;
+  border-bottom: 1px #777 solid;
+  margin: 1.25rem;
+  padding-top: 1.25rem;
+  text-align: center;
+}
+
 .form-contacto {
   display: flex;
   flex-flow: row wrap;
-  justify-content: left;
+  justify-content: center;
   text-align: left;
   margin: 1.25rem;
   padding-bottom: 1.25rem;
@@ -174,11 +183,17 @@ a:hover {
   padding-top: 1.25rem;
 }
 
-.titulo-contacto {
-  display: block;
-  border-bottom: 1px #777 solid;
-  margin: 1.25rem;
-  padding-top: 1.25rem;
+.boton-enviar {
+  background-color: #187D86;
+  color: #D2FBFA;
+  transition: 1s;
+  border: 1px solid #D2FBFA;
+  border-radius: 5px;
+}
+.boton-enviar:hover {
+  background-color: #D2FBFA;
+  color: #04191b;
+  transition: 1s;
 }
 
 .titulo-productos {
@@ -186,6 +201,7 @@ a:hover {
   border-bottom: 1px #777 solid;
   margin: 1.25rem;
   padding-top: 1.25rem;
+  text-align: center;
 }
 
 .contenedor-productos {
