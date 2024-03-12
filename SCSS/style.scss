@@ -9,7 +9,6 @@ $color_6: #1C646E;
 $color_7: #0c3840;
 $color_8: #04191b;
 $font-family_1: 'MerriWeather' , Arial, Helvetica, sans-serif;
-$font-family_2:Arial, Helvetica, sans-serif;
 $background-color_1: whitesmoke;
 $background-color_2: #15A0AA;
 $background-color_3: #D2FBFA;
@@ -17,16 +16,15 @@ $background-color_4: linear-gradient(180deg, #15A0AA 0%, #1C646E 100%);
 $background-color_5: #f2f9f9;
 $background-color_6: #187D86;
 
-@font-face {
-	font-family: Woodlandand;
-	src: url("../fuentes/woodland/Woodland.ttf");
-}
+
 @font-face {
 	font-family: MerriWeather;
 	src: url("../fuentes/Merriweather/Merriweather-Black.ttf");
 }
 
-
+:root {
+	font-family: $font-family_1;
+}
 body {
 	background-color: $background-color_1;
 }
@@ -64,7 +62,6 @@ footer {
 	color: $color_5;
 	line-height: 1.5;
 	a {
-		font-family: $font-family_2;
 		text-decoration: none;
 		color: $color_6;
 	}
@@ -76,7 +73,6 @@ a {
 }
 .ft-titulo {
 	color: $color_6;
-	font-family: $font-family_2;
 	font-size: 1.375rem;
 	padding-bottom: 0.625rem;
 }
@@ -140,13 +136,19 @@ a {
 }
 .titulo-trabajo {
 	display: block;
-	font-family: $font-family_1;
 	font-size: 2.5rem;
 	color: $color_7;
 	border-bottom: 1px #777 solid;
 	text-align: center;
 	margin: 1.25rem;
 	transition: 1s;
+	padding-top: 1.25rem;
+}
+
+.titulo-nostros {
+	display: block;
+	border-bottom: 1px #777 solid;
+	margin: 1.25rem;
 	padding-top: 1.25rem;
 }
 .sobre-nosotros {
@@ -156,16 +158,14 @@ a {
 	text-align: left;
 	margin: 1.25rem;
 	padding-top: 1.25rem;
-	h1 {
-		font-family: $font-family_1;
-		border-bottom: 1px #777 solid;
-	}
 	h2 {
 		padding-top: 1.25rem;
 	}
 	p {
 		padding-bottom: 1.25rem;
 	}
+
+	
 }
 .form-contacto {
 	display: flex;
@@ -176,21 +176,18 @@ a {
 	padding-bottom: 1.25rem;
 	padding-top: 1.25rem;
 	h1 {
-		font-family: $font-family_1;
 		border-bottom: 1px #777 solid;
 		padding-top: 1.25rem;
 	}
 }
 .titulo-contacto {
 	display: block;
-	font-family: $font-family_1;
 	border-bottom: 1px #777 solid;
 	margin: 1.25rem;
 	padding-top: 1.25rem;
 }
 .titulo-productos {
 	display: block;
-	font-family: $font-family_1;
 	border-bottom: 1px #777 solid;
 	margin: 1.25rem;
 	padding-top: 1.25rem;
