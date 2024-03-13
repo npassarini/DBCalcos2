@@ -1,0 +1,24 @@
+.contenedor-trabajo {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.contenedor-trabajo-item {
+	overflow: auto;
+	text-align: center;
+	padding-bottom: 2.5rem;
+	margin: 1.25rem;
+	width: 100%;
+}
+
+.titulo-trabajo {
+	display: block;
+	font-size: 2.5rem;
+	color: $color_7;
+	border-bottom: 1px #777 solid;
+	text-align: center;
+	margin: 1.25rem;
+	transition: 1s;
+	padding-top: 1.25rem;
+}

@@ -1,6 +1,14 @@
-# Ignoro todos los txt // podria haber hecho requerimientos.txt para ignorar solo ese archivo, pero a lo mejor agrego un txt más con mis requerientos.NP
+# archivos/ 
 *.txt
+*.json
 
 # Copia Back de mi estilo CSS por las dudas que falle la implementacion SCSS 
 styleDB copy 4.css
+
+
+# Carpeta
+node_modules
+
+
+
 

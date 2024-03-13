@@ -1,0 +1,76 @@
+footer {
+	background-color: $background-color_5;
+	color: $color_5;
+	line-height: 1.5;
+
+	a {
+		text-decoration: none;
+		color: $color_6;
+	}
+}
+
+a {
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.ft-titulo {
+	color: $color_6;
+	font-size: 1.375rem;
+	padding-bottom: 0.625rem;
+}
+
+.ft-redes {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	border-top: 1px #777 solid;
+	padding-top: 1.25rem;
+	margin: 15px;
+
+	li {
+		padding-top: 1.25rem;
+		margin: 0.5rem;
+		font-size: 1.25rem;
+	}
+
+	img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.ft-redes-lista {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+}
+
+.ft-legal {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	border-top: 1px #777 solid;
+	padding-top: 1.25rem;
+	margin: 15px;
+
+	li {
+		padding-top: auto;
+		margin: 0.5rem;
+		font-size: 1.25rem;
+	}
+}
+
+.ft-legal-lista {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+}
+
+.ft-suscribe-item {
+	padding: 1.25rem;
+	min-width: 12.5rem;
+}
