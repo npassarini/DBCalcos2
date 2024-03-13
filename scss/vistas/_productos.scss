@@ -1,26 +1,27 @@
 .titulo-productos {
 	display: block;
-	border-bottom: 1px #777 solid;
+	border-bottom: 1px $color_9 solid;
 	margin: 1.25rem;
 	padding-top: 1.25rem;
 	text-align: center;
 }
 
+/* seccion productos */
 .contenedor-productos {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 	text-align: center;
 	margin: 1.25rem;
-}
 
-.contenedor-productos-item {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	padding: 1.25rem;
-}
+	.contenedor-productos-item {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding: 1.25rem;
+	}
 
+	
 .boton-carrito {
 	background-color: $background-color_6;
 	color: $color_4;
@@ -33,4 +34,8 @@
 		color: $color_8;
 		transition: 1s;
 	}
+
 }
+
+
+}// fin seccion productos 

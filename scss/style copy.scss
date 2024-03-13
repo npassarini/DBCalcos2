@@ -73,14 +73,15 @@ footer {
 	a {
 		text-decoration: none;
 		color: $color_6;
-	}
-}
+	
 
-a {
 	&:hover {
 		text-decoration: underline;
 	}
+    }
+
 }
+
 
 .ft-titulo {
 	color: $color_6;
@@ -206,7 +207,7 @@ a {
 .sobre-nosotros-bloque-item1 {
 
 	display: flex;
-flex: 1;
+    flex: 1;
 	justify-content: center;
 	width: 45%;
 }
