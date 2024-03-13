@@ -1,0 +1,34 @@
+.menu {
+	background-color: $background-color_2;
+	
+	a {
+		color: $color_2;
+		border-radius: 5px;
+
+		&:hover {
+			background-color: $background-color_3;
+			color: $color_3;
+			transition: 1s;
+		}
+	}
+}
+
+
+.menu-hamburguesa {
+	background-color: $background-color_3;
+	color: $color_1;
+}
+
+.boton-menu {
+	background-color: $background-color_4;
+	color: $color_4;
+	transition: 1s;
+	border: 1px solid #D2FBFA;
+	border-radius: 5px;
+
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_3;
+		transition: 1s;
+	}
+}
