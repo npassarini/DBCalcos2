@@ -3,4 +3,5 @@
 Técnologia usada:
 HTML
 CSS
+SCSS
 Boostrap
