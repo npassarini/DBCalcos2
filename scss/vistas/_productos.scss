@@ -1,3 +1,4 @@
+
 .titulo-productos {
 	display: block;
 	border-bottom: 1px $color_9 solid;
@@ -20,22 +21,7 @@
 		justify-content: space-between;
 		padding: 1.25rem;
 	}
-
-	
-.boton-carrito {
-	background-color: $background-color_6;
-	color: $color_4;
-	transition: 1s;
-	border: 1px solid #D2FBFA;
-	border-radius: 5px;
-
-	&:hover {
-		background-color: $background-color_3;
-		color: $color_8;
-		transition: 1s;
-	}
-
-}
-
+     
+	@import "botones.scss";
 
 }// fin seccion productos 
