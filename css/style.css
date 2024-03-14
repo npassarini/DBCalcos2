@@ -155,11 +155,22 @@ footer .ft-legal .ft-legal-lista {
   display: block;
   border-bottom: 1px #777 solid;
   margin: 1.25rem;
-  padding-top: 1.25rem;
+  padding-top: 0.25rem;
   text-align: center;
 }
 
 /*seccion trabajos */
+.titulo-trabajo {
+  display: block;
+  font-size: 2.5rem;
+  color: #0c3840;
+  border-bottom: 1px #777 solid;
+  text-align: center;
+  margin: 1.25rem;
+  transition: 1s;
+  padding-top: 0.25rem;
+}
+
 .contenedor-trabajo {
   display: flex;
   flex-flow: row wrap;
@@ -172,22 +183,12 @@ footer .ft-legal .ft-legal-lista {
   margin: 1.25rem;
   width: 100%;
 }
-.contenedor-trabajo .titulo-trabajo {
-  display: block;
-  font-size: 2.5rem;
-  color: #0c3840;
-  border-bottom: 1px #777 solid;
-  text-align: center;
-  margin: 1.25rem;
-  transition: 1s;
-  padding-top: 1.25rem;
-}
 
 .titulo-productos {
   display: block;
   border-bottom: 1px #777 solid;
   margin: 1.25rem;
-  padding-top: 1.25rem;
+  padding-top: 0.25rem;
   text-align: center;
 }
 
@@ -210,53 +211,37 @@ footer .ft-legal .ft-legal-lista {
   display: block;
   border-bottom: 1px #777 solid;
   margin: 1.25rem;
-  padding-top: 1.25rem;
+  padding-top: 0.25rem;
   text-align: center;
 }
 
-.sobre-nosotros {
+.foto-sobre-nosotros .foto-sobre-nosotros-img {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 1.25rem;
+}
+
+.sobre-nosotros, .foto-sobre-nosotros {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
-  text-align: left;
-  margin: 1.25rem;
-  padding-top: 1.25rem;
-  width: auto;
+  justify-content: center;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  padding-top: 0.25rem;
 }
-.sobre-nosotros h2 {
+.sobre-nosotros h2, .foto-sobre-nosotros h2 {
   padding-top: 1.25rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #04191b;
   font-weight: bold;
 }
-.sobre-nosotros p {
+.sobre-nosotros p, .foto-sobre-nosotros p {
   padding-bottom: 1.25rem;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   color: #04191b;
 }
-.sobre-nosotros .sobre-nosotros-bloque {
-  display: flex;
-  flex-flow: row wrap;
+.sobre-nosotros .sobre-nosotros-bloque-item, .foto-sobre-nosotros .sobre-nosotros-bloque-item {
   justify-content: center;
-  width: 100%;
-}
-.sobre-nosotros .sobre-nosotros-bloque-item1 {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  width: 45%;
-}
-.sobre-nosotros .sobre-nosotros-bloque-item2 {
-  display: flex;
-  flex-flow: row wrap;
-  flex: 1;
-  justify-content: center;
-  text-align: left;
-  width: 45%;
-}
-.sobre-nosotros .sobre-nosotros-imgcircular {
-  width: 30%;
-  overflow: auto;
-  border-radius: 1%;
+  text-align: justify;
 }/*# sourceMappingURL=style.css.map */
