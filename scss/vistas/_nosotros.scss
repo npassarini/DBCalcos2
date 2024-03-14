@@ -2,18 +2,37 @@
 	display: block;
 	border-bottom: 1px $color_9 solid;
 	margin: 1.25rem;
-	padding-top: 1.25rem;
+	padding-top: 0.25rem;
 	text-align: center;
 }
 
+
+
+//seccion foto sobre nosotros
+.foto-sobre-nosotros {
+
+	@extend .sobre-nosotros;
+
+	
+	.foto-sobre-nosotros-img {
+		width: 100%;
+		overflow: auto;
+		margin-bottom: 1.25rem;
+	
+	}
+
+}
+
+
+
+//seccion sobre nostros
 .sobre-nosotros {
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: space-between;
-	text-align: left;
-	margin: 1.25rem;
-	padding-top: 1.25rem;
-	width: auto;
+	justify-content:center;
+	margin-left : 3.50rem;
+	margin-right: 3.5rem;
+	padding-top: 0.25rem;
 
 
 	h2 {
@@ -28,38 +47,11 @@
 
 
 
-
-.sobre-nosotros-bloque {
-
-	display: flex;
-	flex-flow: row wrap;
+.sobre-nosotros-bloque-item {
 	justify-content: center;
-	width: 100%;
+	text-align: justify;
 }
 
-.sobre-nosotros-bloque-item1 {
-
-	display: flex;
-	flex: 1;
-	justify-content: center;
-	width: 45%;
-}
-
-.sobre-nosotros-bloque-item2 {
-
-	display: flex;
-	flex-flow: row wrap;
-	flex: 1;
-	justify-content: center;
-	text-align: left;
-	width: 45%;
 
 }
 
-.sobre-nosotros-imgcircular {
-	width: 30%;
-	overflow: auto;
-	border-radius: 1%;
-
-}
-}
