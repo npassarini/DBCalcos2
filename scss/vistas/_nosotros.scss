@@ -1,0 +1,65 @@
+.titulo-nostros {
+	display: block;
+	border-bottom: 1px $color_9 solid;
+	margin: 1.25rem;
+	padding-top: 1.25rem;
+	text-align: center;
+}
+
+.sobre-nosotros {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	text-align: left;
+	margin: 1.25rem;
+	padding-top: 1.25rem;
+	width: auto;
+
+
+	h2 {
+		padding-top: 1.25rem;
+        @include estiloSubtitulosNosotros();
+	}
+
+	p {
+		padding-bottom: 1.25rem;
+        @include estiloParrafoNosotros(); 
+	}
+
+
+
+
+.sobre-nosotros-bloque {
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.sobre-nosotros-bloque-item1 {
+
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	width: 45%;
+}
+
+.sobre-nosotros-bloque-item2 {
+
+	display: flex;
+	flex-flow: row wrap;
+	flex: 1;
+	justify-content: center;
+	text-align: left;
+	width: 45%;
+
+}
+
+.sobre-nosotros-imgcircular {
+	width: 30%;
+	overflow: auto;
+	border-radius: 1%;
+
+}
+}
