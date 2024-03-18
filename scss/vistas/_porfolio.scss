@@ -1,5 +1,5 @@
-
 /*seccion trabajos */
+
 
 .titulo-trabajo {
 	display: block;
@@ -21,9 +21,60 @@
 	.contenedor-trabajo-item {
 		overflow: auto;
 		text-align: center;
-		padding-bottom: 2.5rem;
-		margin: 1.25rem;
+		padding-bottom: 0.25rem;
+		margin: 1rem;
 		width: 100%;
+	
 	}
 
+}
+
+// Acordeon porfolio
+.accordion-item {
+	border: none;
+
+@extend .contenedor-trabajo-item;
+
+
+	
+	.accordion-button {
+		color: $color_8;
+		font-weight: bold;
+	}
+
+	.accordion-button:not(.collapsed) {
+		background: $background-color_1;
+		box-shadow: none;
+
+		.accordion-button:not(.collapsed):focus {
+			box-shadow: none;
+		}
+
+	}
+
+	.accordion-button.collapsed {
+		background: $background-color_1;
+		box-shadow: none;
+
+		.accordion-button.collapsed:focus {
+			box-shadow: none;
+		}
+
+	}
+
+}
+
+.compartir-porfolio {
+
+	list-style: none;
+
+}
+
+.porfolio-whatsap {
+	color: $color_10;
+
+	porfolio-whatsap:hover {
+		color: $color_10;
+
+	}
 }

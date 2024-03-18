@@ -4,6 +4,7 @@ por color. bg, fuentes */
 @font-face {
   font-family: MerriWeather;
   src: url("../fuentes/Merriweather/Merriweather-Black.ttf");
+  font-display: swap;
 }
 :root {
   font-family: "MerriWeather", Arial, Helvetica, sans-serif;
@@ -62,6 +63,19 @@ body {
   transition: 1s;
 }
 
+.boton-acordeon {
+  background-color: #187D86;
+  color: #D2FBFA;
+  transition: 1s;
+  border: 1px solid #D2FBFA;
+  border-radius: 5px;
+}
+.boton-acordeon:hover {
+  background-color: #D2FBFA;
+  color: #04191b;
+  transition: 1s;
+}
+
 /* seccion nav */
 .menu {
   background-color: #15A0AA;
@@ -72,7 +86,7 @@ body {
 }
 .menu a:hover {
   background-color: #D2FBFA;
-  color: #187D86;
+  color: #04191b;
   transition: 1s;
 }
 .menu .menu-hamburguesa {
@@ -81,14 +95,14 @@ body {
 }
 .menu .boton-menu {
   background-color: linear-gradient(180deg, #15A0AA 0%, #1C646E 100%);
-  color: #D2FBFA;
+  color: white;
   transition: 1s;
   border: 1px solid #D2FBFA;
   border-radius: 5px;
 }
 .menu .boton-menu:hover {
   background-color: #D2FBFA;
-  color: #187D86;
+  color: #04191b;
   transition: 1s;
 }
 
@@ -113,7 +127,7 @@ footer .ft-redes {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border-top: 1px #777 solid;
+  border-top: 1px #777;
   padding-top: 1.25rem;
   margin: 15px;
 }
@@ -180,6 +194,13 @@ footer .ft-legal .ft-legal-lista {
   text-align: center;
 }
 
+.texto-contacto {
+  padding-top: 2.5rem;
+  text-align: justify;
+  overflow: auto;
+  width: 100%;
+}
+
 /*seccion trabajos */
 .titulo-trabajo {
   display: block;
@@ -197,12 +218,45 @@ footer .ft-legal .ft-legal-lista {
   flex-flow: row wrap;
   justify-content: center;
 }
-.contenedor-trabajo .contenedor-trabajo-item {
+.contenedor-trabajo .contenedor-trabajo-item, .contenedor-trabajo .accordion-item {
   overflow: auto;
   text-align: center;
-  padding-bottom: 2.5rem;
-  margin: 1.25rem;
+  padding-bottom: 0.25rem;
+  margin: 1rem;
   width: 100%;
+}
+
+.accordion-item {
+  border: none;
+}
+.accordion-item .accordion-button {
+  color: #04191b;
+  font-weight: bold;
+}
+.accordion-item .accordion-button:not(.collapsed) {
+  background: whitesmoke;
+  box-shadow: none;
+}
+.accordion-item .accordion-button:not(.collapsed) .accordion-button:not(.collapsed):focus {
+  box-shadow: none;
+}
+.accordion-item .accordion-button.collapsed {
+  background: whitesmoke;
+  box-shadow: none;
+}
+.accordion-item .accordion-button.collapsed .accordion-button.collapsed:focus {
+  box-shadow: none;
+}
+
+.compartir-porfolio {
+  list-style: none;
+}
+
+.porfolio-whatsap {
+  color: green;
+}
+.porfolio-whatsap porfolio-whatsap:hover {
+  color: green;
 }
 
 .titulo-productos {
