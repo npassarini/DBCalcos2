@@ -3,11 +3,7 @@ footer {
 	background-color: $background-color_5;
 	color: $color_5;
 	line-height: 1.5;
-
-
-
 	/* Seccion redes  */
-
 	.ft-redes {
 		display: flex;
 		flex-flow: row wrap;
@@ -15,84 +11,66 @@ footer {
 		border-top: 1px $color_9;
 		padding-top: 1.25rem;
 		margin: 15px;
-
 		li {
 			padding-top: 1.25rem;
 			margin: 0.5rem;
 			font-size: 1.25rem;
 		}
-
 		img {
 			width: 30px;
 			height: 30px;
 		}
-
 		.ft-suscribe-item {
 			padding: 1.25rem;
 			min-width: 12.5rem;
 		}
-
 		.ft-redes-lista {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: center;
 			list-style: none;
-
-
 			.ft-redes-lista-img-fb {
 				text-decoration: none;
 				color: $color_12;
 
 			}
-
 			.ft-redes-lista-img-ig {
 				text-decoration: none;
 				color: $color_13;
 
 			}
-
 			.ft-redes-lista-img-tw {
 				text-decoration: none;
 				color: $color_14;
 
 			}
-
 			.ft-redes-lista-img-wsap {
 				text-decoration: none;
 				color: $color_10;
 
 			}
-
 			.ft-redes-lista-texto-fb {
 				text-decoration: none;
 				color: $color_11;
-
 				&:hover {
 					color: $color_6;
 				}
-
 			}
-
 			.ft-redes-lista-texto-ig {
 				text-decoration: none;
 				color: $color_11;
-
 				&:hover {
 					color: $color_6;
 				}
-
 			}
 
 			.ft-redes-lista-texto-tw {
 				text-decoration: none;
 				color: $color_11;
-
 				&:hover {
 					color: $color_6;
 				}
-
 			}
-
 			.ft-redes-lista-texto-wsap {
 				text-decoration: none;
 				color: $color_11;
@@ -100,20 +78,11 @@ footer {
 				&:hover {
 					color: $color_6;
 				}
-
 			}
-
-
-
 		} 
-
 	}
-
 	/* fin seccion redes */
-
-
 	/* Seccion legal */
-
 	.ft-legal {
 		display: flex;
 		flex-flow: row wrap;
@@ -121,24 +90,18 @@ footer {
 		border-top: 1px $color_9 solid;
 		padding-top: 1.25rem;
 		margin: 15px;
-
 		li {
 			padding-top: auto;
 			margin: 0.5rem;
 			font-size: 1.25rem;
 		}
-
 		.ft-legal-lista {
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: center;
 			list-style: none;
-
 		}
 	}
-
 	//fin seccion legal
-
-
 	/* fin footer*/
 }

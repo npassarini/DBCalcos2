@@ -1,26 +1,20 @@
 /* primero los partial que tienen solo variables, segregue las variables
 por color. bg, fuentes */
-
 // partial que contienen solo variables 
 @import "base/fuentes.scss";
 @import "base/colores.scss";
 @import "base/bg.scss";
-
 //reset  
 @import "base/reset.scss";
-
 //mixins
 @import "utilidades/mixins.scss";
 @import "utilidades/keyframes.scss";
-
 //componentes 
 @import "componentes/botones.scss";
-
 //layaout 
 @import "layaout/header.scss";
 @import "layaout/footer.scss";
 @import"layaout/formularios.scss";
-
 //vistas
 @import"vistas/contacto.scss";
 @import "vistas/porfolio.scss";
