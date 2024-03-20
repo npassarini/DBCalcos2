@@ -4,14 +4,7 @@ footer {
 	color: $color_5;
 	line-height: 1.5;
 
-	a {
-		text-decoration: none;
-		color: $color_6;
-	}
 
-	&:hover {
-		text-decoration: underline;
-	}
 
 	/* Seccion redes  */
 
@@ -44,7 +37,75 @@ footer {
 			flex-flow: row wrap;
 			justify-content: center;
 			list-style: none;
-		}
+
+
+			.ft-redes-lista-img-fb {
+				text-decoration: none;
+				color: $color_12;
+
+			}
+
+			.ft-redes-lista-img-ig {
+				text-decoration: none;
+				color: $color_13;
+
+			}
+
+			.ft-redes-lista-img-tw {
+				text-decoration: none;
+				color: $color_14;
+
+			}
+
+			.ft-redes-lista-img-wsap {
+				text-decoration: none;
+				color: $color_10;
+
+			}
+
+			.ft-redes-lista-texto-fb {
+				text-decoration: none;
+				color: $color_11;
+
+				&:hover {
+					color: $color_6;
+				}
+
+			}
+
+			.ft-redes-lista-texto-ig {
+				text-decoration: none;
+				color: $color_11;
+
+				&:hover {
+					color: $color_6;
+				}
+
+			}
+
+			.ft-redes-lista-texto-tw {
+				text-decoration: none;
+				color: $color_11;
+
+				&:hover {
+					color: $color_6;
+				}
+
+			}
+
+			.ft-redes-lista-texto-wsap {
+				text-decoration: none;
+				color: $color_11;
+
+				&:hover {
+					color: $color_6;
+				}
+
+			}
+
+
+
+		} 
 
 	}
 
@@ -72,6 +133,7 @@ footer {
 			flex-flow: row wrap;
 			justify-content: center;
 			list-style: none;
+
 		}
 	}
 

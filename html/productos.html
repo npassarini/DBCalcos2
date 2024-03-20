@@ -20,10 +20,12 @@
         content="calcomanías, calcos de messi, Imprenta Rápida, Ploteo de corte, calcomanías customizadas, troqueles digitales, Soluciones Gráficas. diseño grafico, Stickers">
 
 
+    <!-- meta tel y whatsaap-->
+    <meta name="telephone" content="+5491134683966">
+    <meta name="whatsaap--" content="+5491134683966">
 
-    <!-- Titulo -->
-    <title>DBCalcos tienda especializada en creaciones de calcomanías customizadas - Productos </title>
-
+    <!-- Geo localizacion en argentina, que va ser mi nicho -->
+    <meta name="geo.placename" content="Argentina">
 
 
     <!-- Autor y CopyRight  -->
@@ -31,8 +33,13 @@
     <meta name="copyright" content="Natalia Passarini pada Daniel Brullo" />
 
 
-  <!-- Preconnect  -->
-  <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin>
+    <!-- Titulo -->
+    <title>DBCalcos tienda especializada en creaciones de calcomanías customizadas - Productos </title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/DB Calcos.ico" type="image/x-icon">
+    <!-- Preconnect  -->
+    <link rel="preconnect" href="https://ka-f.fontawesome.com" crossorigin>
 
     <!--Boostrap CDN-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -43,7 +50,6 @@
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 
     <!--CSS -->
-    <link rel="stylesheet" href="../scss/style.scss">
     <link rel="stylesheet" href="../css/style.css">
 
 
@@ -174,7 +180,7 @@
                     <!-- Card 3-->
                     <div class="col">
                         <div class="card">
-                            <img src="../img/carrito/moto2.jpg" class="card-img-top" alt="Calco Motocross">
+                            <img src="../img/carrito/moto2.webp" class="card-img-top" alt="Calco Motocross">
                             <div class="card-body">
                                 <h5 class="card-title">Motocross</h5>
                                 <p class="card-text">Pack Stickers Vinilos Motocross.Casco-moto.
@@ -187,7 +193,7 @@
                     <!-- Card 4-->
                     <div class="col">
                         <div class="card">
-                            <img src="../img/carrito/barbi2.png" class="card-img-top" alt="Barbie">
+                            <img src="../img/carrito/barbi2.webp" class="card-img-top" alt="Barbie">
                             <div class="card-body">
                                 <h5 class="card-title">Messi Inter Miami</h5>
                                 <p class="card-text">Pack Stickers Calcomanias Barbie.Termo- Compu.
@@ -226,23 +232,27 @@
                 <ul class=ft-redes-lista>
 
                     <li>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i>
+                        <a class="ft-redes-lista-texto-fb" href="https://www.facebook.com/" target="_blank"><i
+                                class="fab fa-facebook-square ft-redes-lista-img-fb "></i>
                             facebook</a>
 
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i>
+                        <a class="ft-redes-lista-texto-ig" href="https://www.instagram.com/" target="_blank"><i
+                                class="fab fa-instagram-square ft-redes-lista-img-ig"></i>
                             Instagram</a>
 
                     </li>
                     <li>
-                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i>
+                        <a class="ft-redes-lista-texto-tw" href="https://twitter.com/" target="_blank"><i
+                                class="fab fa-twitter-square ft-redes-lista-img-tw"></i>
                             Twitter</a>
 
                     </li>
                     <li>
-                        <a href="https://wa.me/5491134683966/?text=Hola me contacto desde la página" target="_blank"><i
-                                class="fab fa-whatsapp-square"></i> Whatsaap</a>
+                        <a class="ft-redes-lista-texto-wsap"
+                            href="https://wa.me/5491134683966/?text=Hola me contacto desde la página" target="_blank"><i
+                                class="fab fa-whatsapp-square ft-redes-lista-img-wsap"></i> Whatsaap</a>
                     </li>
                 </ul>
             </div>
@@ -252,9 +262,36 @@
         </section>
 
         <!-- Footer legal -->
+        <section>
+            <div class="modal fade" id="modalTerminos">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Terminos y condiciones</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            LA EMPRESA no será responsable por las transacciones efectuadas entre el USUARIO y los
+                            sitios con vínculos
+                            de la página.
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn boton-carrito" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
         <section class="ft-legal">
             <ul class="ft-legal-lista">
-                <li><a href="#">Terminos &amp; Condiciones</a></li>
+                <li><a href="#" data-bs-toggle="modal" data-bs-target="#modalTerminos">Terminos &amp; Condiciones</a>
+                </li>
                 <li>&copy; 2024 Copyright NPG para DB calcos.</li>
             </ul>
         </section>
