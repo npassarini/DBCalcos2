@@ -62,19 +62,6 @@ body {
   transition: 1s;
 }
 
-.boton-acordeon {
-  background-color: #187D86;
-  color: #D2FBFA;
-  transition: 1s;
-  border: 1px solid #D2FBFA;
-  border-radius: 5px;
-}
-.boton-acordeon:hover {
-  background-color: #D2FBFA;
-  color: #04191b;
-  transition: 1s;
-}
-
 /* seccion nav */
 .menu {
   background-color: #15A0AA;
